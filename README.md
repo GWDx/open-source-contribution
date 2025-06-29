@@ -1,11 +1,13 @@
-## PR
+记录代码相关的 PR 和 issue
 
-> https://github.com/pulls?q=is%3Apr+author%3AGWDx+archived%3Afalse
+### PR
+
+> https://github.com/pulls?q=is%3Apr+author%3AGWDx
 >
 > https://invent.kde.org/dashboard/merge_requests?scope=all&state=all&author_username=gwdx
 >
 
-| id   | organization   | product          | PR (GitLab/GitHub/Phabricator)                               | commit (GitHub) / status                                     |
+| id   | organization   | product          | PR (GitLab/GitHub/Phabricator/Gerrit)                        | commit (GitHub) / status                                     |
 | ---- | -------------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | P1   | KDE            | Okular           | [fix Unicode Normalization: replace NFKC to NFC](https://invent.kde.org/graphics/okular/-/merge_requests/941) | [322fd2d](https://github.com/KDE/okular/commit/322fd2d54e4226f6dbb4fb357a86931a5c790340) |
 | P2   | KDE            | Konsole          | [url filter: remove trailing non-URL characters](https://invent.kde.org/utilities/konsole/-/merge_requests/934) | [02ba8ce](https://github.com/KDE/konsole/commit/02ba8cefc763f841e523c77069860253599b2dc0) [1817dd4](https://github.com/KDE/konsole/commit/1817dd40679240ab50ea52891d53802ef15b5723) |
@@ -20,13 +22,19 @@
 | P11  | Gitea          | Gitea            | [Fix incorrect divergence cache after switching default branch](https://github.com/go-gitea/gitea/pull/34370) | [71a1187](https://github.com/go-gitea/gitea/commit/71a11872091634f1370374ef123d32798ec0447d) |
 | P12  | KDE            | KCharSelect      | [Support copying selected text from detail panel](https://invent.kde.org/utilities/kcharselect/-/merge_requests/30) | Open                                                         |
 | P13  | KDE            | Discover         | [Fix use-after-free when closing Discover](https://invent.kde.org/plasma/discover/-/merge_requests/1090) | [82226e8](https://github.com/KDE/discover/commit/82226e8a5cd263d5e9eb2b4c7c48eb32cfae296f) |
+| P14  | KDE            | Krita            | [Windows: Limit detected function keys to F1–F12](https://invent.kde.org/graphics/krita/-/merge_requests/2416) | Open                                                         |
+| P15  | KDE            | Solid            | [Fix garbled product names in USB devices](https://invent.kde.org/frameworks/solid/-/merge_requests/214) | Open                                                         |
+| P16  | Chromium       | Chromium         | [Fix stuck F22 key state in ForegroundHelper on Windows](https://chromium-review.googlesource.com/c/chromium/src/+/6674454) | Open                                                         |
 
  
 
-## Issue
+### Issue
+
+> https://github.com/issues/created?q=is%3Aissue%20author%3A%40me
 
 | id   | organization | product          | Issue (bugzilla/GitHub)                                      | closed by / status |
 | ---- | ------------ | ---------------- | ------------------------------------------------------------ | ------------------ |
 | I1   | Mozilla      | Firefox DevTools | [Network Panel Search - Incomplete text displayed on the left side panel](https://bugzilla.mozilla.org/show_bug.cgi?id=1938771) | P5                 |
 | I2   | Gitea        | Gitea            | [Branches still compare against previous default branch after switch](https://github.com/go-gitea/gitea/issues/34369) | P11                |
-
+| I3   | KDE          | Solid            | [Product name displayed as garbled text for USB devices with non-ASCII characters](https://bugs.kde.org/show_bug.cgi?id=505913) |                    |
+| I4   | Chromium     | Chromium         | [ForegroundHelper sends VK_F22 without key-up event on Windows](https://issues.chromium.org/issues/427778321) |                    |
