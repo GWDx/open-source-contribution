@@ -6,11 +6,12 @@
 >
 > https://invent.kde.org/dashboard/merge_requests?scope=all&state=all&author_username=gwdx
 >
+> 按照创建时间排序
 
 | id   | organization   | product          | PR (GitLab/GitHub/Phabricator/Gerrit)                        | commit (GitHub) / status                                     |
 | ---- | -------------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| P1   | KDE            | Okular           | [fix Unicode Normalization: replace NFKC to NFC](https://invent.kde.org/graphics/okular/-/merge_requests/941) | [322fd2d](https://github.com/KDE/okular/commit/322fd2d54e4226f6dbb4fb357a86931a5c790340) |
-| P2   | KDE            | Konsole          | [url filter: remove trailing non-URL characters](https://invent.kde.org/utilities/konsole/-/merge_requests/934) | [02ba8ce](https://github.com/KDE/konsole/commit/02ba8cefc763f841e523c77069860253599b2dc0) [1817dd4](https://github.com/KDE/konsole/commit/1817dd40679240ab50ea52891d53802ef15b5723) |
+| P1   | KDE            | Konsole          | [url filter: remove trailing non-URL characters](https://invent.kde.org/utilities/konsole/-/merge_requests/934) | [02ba8ce](https://github.com/KDE/konsole/commit/02ba8cefc763f841e523c77069860253599b2dc0) [1817dd4](https://github.com/KDE/konsole/commit/1817dd40679240ab50ea52891d53802ef15b5723) |
+| P2   | KDE            | Okular           | [fix Unicode Normalization: replace NFKC to NFC](https://invent.kde.org/graphics/okular/-/merge_requests/941) | [322fd2d](https://github.com/KDE/okular/commit/322fd2d54e4226f6dbb4fb357a86931a5c790340) |
 | P3   | GitHub Desktop | GitHub Desktop   | [Fix extra newline issue when adding to non-existent .gitignore](https://github.com/desktop/desktop/pull/19279) | [aa2f9cc](https://github.com/desktop/desktop/commit/aa2f9cca767ef15e7b85367d02686bdb22ac944f) |
 | P4   | KDE            | Akregator        | [Fix extra empty line when adding a new feed to a new folder](https://invent.kde.org/pim/akregator/-/merge_requests/57) | [0c869e0](https://github.com/KDE/akregator/commit/0c869e02caea41421d6a54feb2b03e3ec3aa9030) |
 | P5   | Mozilla        | Firefox DevTools | [Fix incomplete text display in Devtools Network Panel search results. r=jdescottes](https://phabricator.services.mozilla.com/D232793) | [d474b02](https://github.com/mozilla/gecko-dev/commit/d474b02d440da9ee6afe3ca1402eb81631dc77c4) |
@@ -22,9 +23,9 @@
 | P11  | Gitea          | Gitea            | [Fix incorrect divergence cache after switching default branch](https://github.com/go-gitea/gitea/pull/34370) | [71a1187](https://github.com/go-gitea/gitea/commit/71a11872091634f1370374ef123d32798ec0447d) |
 | P12  | KDE            | KCharSelect      | [Support copying selected text from detail panel](https://invent.kde.org/utilities/kcharselect/-/merge_requests/30) | Open                                                         |
 | P13  | KDE            | Discover         | [Fix use-after-free when closing Discover](https://invent.kde.org/plasma/discover/-/merge_requests/1090) | [82226e8](https://github.com/KDE/discover/commit/82226e8a5cd263d5e9eb2b4c7c48eb32cfae296f) |
-| P14  | KDE            | Krita            | [Windows: Limit detected function keys to F1–F12](https://invent.kde.org/graphics/krita/-/merge_requests/2416) | Open                                                         |
-| P15  | KDE            | Solid            | [Fix garbled product names in USB devices](https://invent.kde.org/frameworks/solid/-/merge_requests/214) | Open                                                         |
-| P16  | Chromium       | Chromium         | [Fix stuck F22 key state in ForegroundHelper on Windows](https://chromium-review.googlesource.com/c/chromium/src/+/6674454) | Open                                                         |
+| P14  | KDE            | Krita            | [Draft: Windows: Limit detected function keys to F1–F12](https://invent.kde.org/graphics/krita/-/merge_requests/2416) | Closed                                                       |
+| P15  | KDE            | Solid            | [Fix garbled product names in USB devices](https://invent.kde.org/frameworks/solid/-/merge_requests/214) | [edae70e](https://github.com/KDE/solid/commit/edae70e96f3459783cd088b636b6044454ffaba6) [561a15b](https://github.com/KDE/solid/commit/561a15b5f438a92709aa9f91b7ccd1873f4cb0a9) |
+| P16  | Chromium       | Chromium         | [Fix stuck F22 key state in ForegroundHelper on Windows](https://chromium-review.googlesource.com/c/chromium/src/+/6674454) | [f16e1dd](https://github.com/chromium/chromium/commit/f16e1ddc09c516addedf6d80561d468136e2c4a2) [5eecc16](https://github.com/chromium/chromium/commit/5eecc165cbd32b54ccba16a41966a6c6e2cc4781) |
 
  
 
@@ -36,5 +37,5 @@
 | ---- | ------------ | ---------------- | ------------------------------------------------------------ | ------------------ |
 | I1   | Mozilla      | Firefox DevTools | [Network Panel Search - Incomplete text displayed on the left side panel](https://bugzilla.mozilla.org/show_bug.cgi?id=1938771) | P5                 |
 | I2   | Gitea        | Gitea            | [Branches still compare against previous default branch after switch](https://github.com/go-gitea/gitea/issues/34369) | P11                |
-| I3   | KDE          | Solid            | [Product name displayed as garbled text for USB devices with non-ASCII characters](https://bugs.kde.org/show_bug.cgi?id=505913) |                    |
-| I4   | Chromium     | Chromium         | [ForegroundHelper sends VK_F22 without key-up event on Windows](https://issues.chromium.org/issues/427778321) |                    |
+| I3   | KDE          | Solid            | [Product name displayed as garbled text for USB devices with non-ASCII characters](https://bugs.kde.org/show_bug.cgi?id=505913) | P15                |
+| I4   | Chromium     | Chromium         | [ForegroundHelper sends VK_F22 without key-up event on Windows](https://issues.chromium.org/issues/427778321) | P16                |
