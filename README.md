@@ -26,6 +26,8 @@
 | P14  | KDE            | Krita            | [Draft: Windows: Limit detected function keys to F1–F12](https://invent.kde.org/graphics/krita/-/merge_requests/2416) | Closed                                                       |
 | P15  | KDE            | Solid            | [Fix garbled product names in USB devices](https://invent.kde.org/frameworks/solid/-/merge_requests/214) | [edae70e](https://github.com/KDE/solid/commit/edae70e96f3459783cd088b636b6044454ffaba6) [561a15b](https://github.com/KDE/solid/commit/561a15b5f438a92709aa9f91b7ccd1873f4cb0a9) |
 | P16  | Chromium       | Chromium         | [Fix stuck F22 key state in ForegroundHelper on Windows](https://chromium-review.googlesource.com/c/chromium/src/+/6674454) | [f16e1dd](https://github.com/chromium/chromium/commit/f16e1ddc09c516addedf6d80561d468136e2c4a2) [5eecc16](https://github.com/chromium/chromium/commit/5eecc165cbd32b54ccba16a41966a6c6e2cc4781) |
+| P17  | LibreOffice    | LibreOffice      | [Fix incorrect object selection for captioned images](https://gerrit.libreoffice.org/c/core/+/188824) |                                                              |
+| P18  | Zettlr         | Zettlr           | [Fix WebP images not rendering from relative paths](https://github.com/Zettlr/Zettlr/pull/5843) | [9f9ec17](https://github.com/Zettlr/Zettlr/pull/5843/commits/9f9ec179aab2c9b8d24e86cc989e10851ce3c4a7) |
 
  
 
