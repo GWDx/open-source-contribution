@@ -21,16 +21,18 @@
 | P9   | KDE            | Krfb             | [Add UTF-8 clipboard support](https://invent.kde.org/network/krfb/-/merge_requests/88) | [7e34a75](https://github.com/KDE/krfb/commit/7e34a75b8e4fc9659ee7a2c9b80c6dc512e3a2d5) [c434224](https://github.com/KDE/krfb/commit/c434224d23d1ff8f45c692b329c7101a8c2c04ee) |
 | P10  | KDE            | KRDC             | [VNC: Add UTF-8 clipboard support](https://invent.kde.org/network/krdc/-/merge_requests/182) | [9775af3](https://github.com/KDE/krdc/commit/9775af314f8685cba9c9009af88c107a6d8c401d) [abcda23](https://github.com/KDE/krdc/commit/abcda2356553de20339370d7c13e9bd2f7923d97) |
 | P11  | Gitea          | Gitea            | [Fix incorrect divergence cache after switching default branch](https://github.com/go-gitea/gitea/pull/34370) | [71a1187](https://github.com/go-gitea/gitea/commit/71a11872091634f1370374ef123d32798ec0447d) |
-| P12  | KDE            | KCharSelect      | [Support copying selected text from detail panel](https://invent.kde.org/utilities/kcharselect/-/merge_requests/30) |                                                              |
+| P12  | KDE            | KCharSelect      | [Support copying selected text from detail panel](https://invent.kde.org/utilities/kcharselect/-/merge_requests/30) | Open                                                         |
 | P13  | KDE            | Discover         | [Fix use-after-free when closing Discover](https://invent.kde.org/plasma/discover/-/merge_requests/1090) | [82226e8](https://github.com/KDE/discover/commit/82226e8a5cd263d5e9eb2b4c7c48eb32cfae296f) |
 | P14  | KDE            | Krita            | [Draft: Windows: Limit detected function keys to F1–F12](https://invent.kde.org/graphics/krita/-/merge_requests/2416) | Closed                                                       |
 | P15  | KDE            | Solid            | [Fix garbled product names in USB devices](https://invent.kde.org/frameworks/solid/-/merge_requests/214) | [edae70e](https://github.com/KDE/solid/commit/edae70e96f3459783cd088b636b6044454ffaba6) [561a15b](https://github.com/KDE/solid/commit/561a15b5f438a92709aa9f91b7ccd1873f4cb0a9) |
 | P16  | Chromium       | Chromium         | [Fix stuck F22 key state in ForegroundHelper on Windows](https://chromium-review.googlesource.com/c/chromium/src/+/6674454) | [f16e1dd](https://github.com/chromium/chromium/commit/f16e1ddc09c516addedf6d80561d468136e2c4a2) [5eecc16](https://github.com/chromium/chromium/commit/5eecc165cbd32b54ccba16a41966a6c6e2cc4781) |
-| P17  | LibreOffice    | LibreOffice      | [Fix incorrect object selection for captioned images](https://gerrit.libreoffice.org/c/core/+/188824) |                                                              |
+| P17  | LibreOffice    | LibreOffice      | [Fix incorrect object selection for captioned images](https://gerrit.libreoffice.org/c/core/+/188824) | [f4b53f9](https://github.com/LibreOffice/core/commit/f4b53f9fb513b5238cbefb6a415bbcf2bd8aa238) |
 | P18  | Zettlr         | Zettlr           | [Fix WebP images not rendering from relative paths](https://github.com/Zettlr/Zettlr/pull/5843) | [eae605f](https://github.com/Zettlr/Zettlr/commit/eae605fe8de2a1b746994ec9cda8be2186adbb5d) |
-| P19  | KDE            | Dolphin          | [Fix duplicated "Internal shared storage" when opening MTP device from sidebar](https://invent.kde.org/system/dolphin/-/merge_requests/1036) |                                                              |
+| P19  | KDE            | Dolphin          | [Fix duplicated "Internal shared storage" when opening MTP device from sidebar](https://invent.kde.org/system/dolphin/-/merge_requests/1036) | Open                                                         |
+| P20  | KDE            | KGpg             | [Fix crash when editing a key in terminal the second time](https://invent.kde.org/utilities/kgpg/-/merge_requests/35) | Open                                                         |
+| P21  | KDE            | Konsole          | [HTMLDecoder: fix missing span on subsequent lines](https://invent.kde.org/utilities/konsole/-/merge_requests/1130) | Open                                                         |
 
- 
+
 
 ### Issue
 
@@ -42,3 +44,5 @@
 | I2   | Gitea        | Gitea            | [Branches still compare against previous default branch after switch](https://github.com/go-gitea/gitea/issues/34369) | P11                |
 | I3   | KDE          | Solid            | [Product name displayed as garbled text for USB devices with non-ASCII characters](https://bugs.kde.org/show_bug.cgi?id=505913) | P15                |
 | I4   | Chromium     | Chromium         | [ForegroundHelper sends VK_F22 without key-up event on Windows](https://issues.chromium.org/issues/427778321) | P16                |
+| I5   | KDE          | KGpg             | [KGpg crashes when editing a key in terminal the second time](https://bugs.kde.org/show_bug.cgi?id=509767) | P20                |
+| I6   | KDE          | Konsole          | [HTMLDecoder: fix missing span on subsequent lines](https://invent.kde.org/utilities/konsole/-/merge_requests/1130) | P21                |
