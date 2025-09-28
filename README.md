@@ -29,14 +29,15 @@
 | P17  | LibreOffice    | LibreOffice      | [Fix incorrect object selection for captioned images](https://gerrit.libreoffice.org/c/core/+/188824) | [f4b53f9](https://github.com/LibreOffice/core/commit/f4b53f9fb513b5238cbefb6a415bbcf2bd8aa238) |
 | P18  | Zettlr         | Zettlr           | [Fix WebP images not rendering from relative paths](https://github.com/Zettlr/Zettlr/pull/5843) | [eae605f](https://github.com/Zettlr/Zettlr/commit/eae605fe8de2a1b746994ec9cda8be2186adbb5d) |
 | P19  | KDE            | Dolphin          | [Fix duplicated "Internal shared storage" when opening MTP device from sidebar](https://invent.kde.org/system/dolphin/-/merge_requests/1036) | Open                                                         |
-| P20  | KDE            | KGpg             | [Fix crash when editing a key in terminal the second time](https://invent.kde.org/utilities/kgpg/-/merge_requests/35) | Open                                                         |
+| P20  | KDE            | KGpg             | [Fix crash when editing a key in terminal the second time](https://invent.kde.org/utilities/kgpg/-/merge_requests/35) | [ab0a524](https://github.com/KDE/kgpg/commit/ab0a5249d9c07f085e27e9243a92b600dccf923d) |
 | P21  | KDE            | Konsole          | [HTMLDecoder: fix missing span on subsequent lines](https://invent.kde.org/utilities/konsole/-/merge_requests/1130) | Open                                                         |
+| P22  | mathjax        | MathJax-src      | [Allow digits in \operatorname (mathjax/MathJax#2991)](https://github.com/mathjax/MathJax-src/pull/1360) | Open                                                         |
 
 
 
 ### Issue
 
-> https://github.com/issues/created?q=is%3Aissue%20author%3A%40me
+> https://github.com/issues/created?q=is%3Aissue%20author%3AGWDx
 
 | id   | organization | product          | Issue (bugzilla/GitHub)                                      | closed by / status |
 | ---- | ------------ | ---------------- | ------------------------------------------------------------ | ------------------ |
@@ -45,4 +46,4 @@
 | I3   | KDE          | Solid            | [Product name displayed as garbled text for USB devices with non-ASCII characters](https://bugs.kde.org/show_bug.cgi?id=505913) | P15                |
 | I4   | Chromium     | Chromium         | [ForegroundHelper sends VK_F22 without key-up event on Windows](https://issues.chromium.org/issues/427778321) | P16                |
 | I5   | KDE          | KGpg             | [KGpg crashes when editing a key in terminal the second time](https://bugs.kde.org/show_bug.cgi?id=509767) | P20                |
-| I6   | KDE          | Konsole          | [HTMLDecoder: fix missing span on subsequent lines](https://invent.kde.org/utilities/konsole/-/merge_requests/1130) | P21                |
+| I6   | KDE          | Konsole          | [Saving output as HTML cause multi-line text loses style](https://bugs.kde.org/show_bug.cgi?id=509784) | P21                |
