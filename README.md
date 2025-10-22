@@ -31,8 +31,9 @@
 | P19  | KDE            | Dolphin          | [Fix duplicated "Internal shared storage" when opening MTP device from sidebar](https://invent.kde.org/system/dolphin/-/merge_requests/1036) | [d0f8985](https://github.com/KDE/dolphin/commit/d0f8985b4c5c790781be6fcd06d299f087e78756) [eeb5251](https://github.com/KDE/dolphin/commit/eeb5251c30c3cbcdff5db59b250286eae30792fb) [051bc36](https://github.com/KDE/dolphin/commit/051bc3665a169e261d57ecab1f70baaa31a4a1ad) |
 | P20  | KDE            | KGpg             | [Fix crash when editing a key in terminal the second time](https://invent.kde.org/utilities/kgpg/-/merge_requests/35) | [ab0a524](https://github.com/KDE/kgpg/commit/ab0a5249d9c07f085e27e9243a92b600dccf923d) |
 | P21  | KDE            | Konsole          | [HTMLDecoder: fix missing span on subsequent lines](https://invent.kde.org/utilities/konsole/-/merge_requests/1130) | [b04c4ec](https://github.com/KDE/konsole/commit/b04c4ec523fa2c1807dd711d3612b495134f3784) [7919ae7](https://github.com/KDE/konsole/commit/7919ae7f281ba8c03ce17f38aa08a2ed24620a7d) |
-| P22  | mathjax        | MathJax-src      | [Allow digits in \operatorname (mathjax/MathJax#2991)](https://github.com/mathjax/MathJax-src/pull/1360) | Open                                                         |
+| P22  | mathjax        | MathJax-src      | [Allow digits in \operatorname (mathjax/MathJax#2991)](https://github.com/mathjax/MathJax-src/pull/1360) | [859405e](https://github.com/mathjax/MathJax-src/commit/859405e8d57bc8c16b1c90d2f6f33f0b8bcfccc8) |
 | P23  | KDE            | Ark              | [Draft: Fix crash when closing while loading large tar.gz archive](https://invent.kde.org/utilities/ark/-/merge_requests/306) | Open                                                         |
+| P24  | KDE            | Konsole          | [Draft: Fix crash when handling very long text](https://invent.kde.org/utilities/konsole/-/merge_requests/1137) | Open                                                         |
 
 
 
