@@ -34,7 +34,7 @@
 | P22  | mathjax        | MathJax-src      | [Allow digits in \operatorname (mathjax/MathJax#2991)](https://github.com/mathjax/MathJax-src/pull/1360) | [859405e](https://github.com/mathjax/MathJax-src/commit/859405e8d57bc8c16b1c90d2f6f33f0b8bcfccc8) |
 | P23  | KDE            | Ark              | [Draft: Fix crash when closing while loading large tar.gz archive](https://invent.kde.org/utilities/ark/-/merge_requests/306) | Open                                                         |
 | P24  | KDE            | Konsole          | [Draft: Fix crash when handling very long text](https://invent.kde.org/utilities/konsole/-/merge_requests/1137) | Open                                                         |
-| P25  | KDE            | Konsole          | [Remove extra character and nulls in HTML export for lines with CJK characters](https://invent.kde.org/utilities/konsole/-/merge_requests/1139) | Open                                                         |
+| P25  | KDE            | Konsole          | [Remove extra character and nulls in HTML export for lines with CJK characters](https://invent.kde.org/utilities/konsole/-/merge_requests/1139) | [33d0fa3](https://github.com/KDE/konsole/commit/33d0fa3b324fd6e244657bf8b2e01efe84fec343) |
 
 
 
